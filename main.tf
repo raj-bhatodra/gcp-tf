@@ -11,7 +11,7 @@ provider "google" {
   # Configuration options
   project     = "service-by-tf"
   region      = "us-west1"
-  credentials = "./service-by-tf-6df96e4efa4b.json"
+  # credentials = <path_of_your_SSH_json_file>
 }
 
 resource "google_compute_network" "vpc_network" {
